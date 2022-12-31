@@ -194,7 +194,7 @@ func (d *Fusion5Driver) vmrunPath() string {
 }
 
 func (d *Fusion5Driver) ToolsIsoPath(k string) string {
-	return filepath.Join(d.AppPath, "Contents", "Library", "isoimages", k+".iso")
+	return filepath.Join(d.AppPath, "Contents", "Library", "isoimages", "x86_x64", k+".iso")
 }
 
 func (d *Fusion5Driver) ToolsInstall() error {
